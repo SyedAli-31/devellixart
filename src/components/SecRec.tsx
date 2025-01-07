@@ -93,6 +93,8 @@ Targeted Ads: Maximize your ROI.`,
                 <Image
                   src={service.image}
                   alt={service.title}
+                  width={312}
+                  height={312}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
 

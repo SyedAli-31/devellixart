@@ -2,34 +2,30 @@ import React from "react";
 import "@fontsource/montserrat"; // For Montserrat
 import "@fontsource/nunito-sans"; // For Nunito Sans
 import Image from "next/image";
+
 const ChooseUs: React.FC = () => {
   return (
-    
-<div className="relative mx-auto py-8 px-4 sm:px-6 lg:px-12">
-  {/* Triangle Background: Visible on desktop only */}
-  <div className="absolute inset-0 w-[0] h-0 border-l-[98.7vw]   border-b-[50vh] border-t-[25vh] border-t-blue-950 z-0 md:block hidden"> 
-    
-  </div>
-
- 
-
-
+    <div className="relative mx-auto py-8 px-4 sm:px-6 lg:px-12">
+      {/* Triangle Background: Visible on desktop only */}
+      <div className="absolute inset-0 w-[0] h-0 border-l-[98.7vw] border-b-[50vh] border-t-[25vh] border-t-blue-950 z-0 md:block hidden"></div>
+      
       {/* Content Section */}
       <div className="relative z-10 flex flex-col md:flex-row items-center">
         {/* Left Side: Text Content */}
-        <div className="">
-          <div className="flex items-center mt-12 ml-[200px]">
+        <div className="w-full md:w-1/2">
+          <div className="flex items-center mt-12 justify-center md:justify-start">
             <div
-              className="bg-blue-700 text-white py-2 px-4 font-bold text-xl sm:text-2xl lg:text-3xl "
+              className="bg-blue-700 text-white py-2 px-4 font-bold text-xl sm:text-2xl lg:text-3xl"
               style={{ fontFamily: "Montserrat, sans-serif" }}
             >
               WHY CHOOSE US?
             </div>
             <div className="w-3 h-10 sm:h-12 bg-yellow-500"></div>
           </div>
+
           <div className="mt-6 space-y-6">
             {/* Feature 1 */}
-            <div className="flex items-start space-x-4">
+            <div className="flex items-start space-x-4 justify-center md:justify-start">
               <div className="flex-shrink-0">
                 <svg
                   className="w-10 h-10 text-red-500"
@@ -50,13 +46,13 @@ const ChooseUs: React.FC = () => {
                 className="text-gray-700 text-base sm:text-lg"
                 style={{ fontFamily: "Nunito Sans, sans-serif" }}
               >
-                Our team consists of experienced designers  and <br /> developers with a 
+                Our team consists of experienced designers and <br /> developers with a
                 proven track record in delivering <br /> high-quality projects.
               </p>
             </div>
 
             {/* Feature 2 */}
-            <div className="flex items-start space-x-4 ml-[120px]">
+            <div className="flex items-start space-x-4 justify-center md:justify-start">
               <div className="flex-shrink-0">
                 <svg
                   className="w-10 h-10 text-red-500"
@@ -77,14 +73,14 @@ const ChooseUs: React.FC = () => {
                 className="text-gray-700 text-base sm:text-lg"
                 style={{ fontFamily: "Nunito Sans, sans-serif" }}
               >
-                Diverse Portfolio: We have successfully completed <br /> numerous 
+                Diverse Portfolio: We have successfully completed <br /> numerous
                 projects across various industries, showcasing <br /> our versatility and
                 expertise.
               </p>
             </div>
 
             {/* Feature 3 */}
-            <div className="flex items-start space-x-4  ml-[240px]">
+            <div className="flex items-start space-x-4 justify-center md:justify-start">
               <div className="flex-shrink-0">
                 <svg
                   className="w-10 h-10 text-red-500"
@@ -112,7 +108,7 @@ const ChooseUs: React.FC = () => {
             </div>
 
             {/* Feature 4 */}
-            <div className="flex items-start space-x-4  ml-[360px]">
+            <div className="flex items-start space-x-4 justify-center md:justify-start">
               <div className="flex-shrink-0">
                 <svg
                   className="w-10 h-10 text-red-500"
@@ -140,16 +136,17 @@ const ChooseUs: React.FC = () => {
             </div>
           </div>
         </div>
-<div className="">
-  <Image 
-  src={"/chose.jpg"}
-  alt='chose'
-  width={300}
-  height={200}
-  className="h-[200px] w-[300px]"
-  />
-</div>
-         
+
+        {/* Right Side: Image */}
+        <div className="mt-8 md:mt-0 w-full md:w-1/2 flex justify-center">
+          <Image
+            src={"/chose.jpg"}
+            alt="chose"
+            width={300}
+            height={200}
+            className="h-[200px] w-[300px] object-cover rounded-md"
+          />
+        </div>
       </div>
     </div>
   );

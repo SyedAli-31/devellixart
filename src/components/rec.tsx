@@ -17,6 +17,8 @@ const Recent: React.FC = () => {
                 <Image
                   src="/service.png" // Replace with the correct image path
                   alt="Team Collaboration"
+                  width={312}
+                  height={312}
                   className="object-cover w-full h-full"
                 />
               </div>

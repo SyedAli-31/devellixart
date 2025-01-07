@@ -88,7 +88,7 @@ function ResponsiveAppBar() {
           {/* Logo */}
           <Box
             component="img"
-            src="/DEVELLIX-LOGO.PNG"
+            src="/DEVELLIX-LOGO.png"
             alt="Devellix Art"
             sx={{
               height: 113,
