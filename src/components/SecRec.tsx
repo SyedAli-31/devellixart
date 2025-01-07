@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const SecRecent: React.FC = () => {
@@ -89,7 +90,7 @@ Targeted Ads: Maximize your ROI.`,
                 }}
               >
                 {/* Service Image */}
-                <img
+                <Image
                   src={service.image}
                   alt={service.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

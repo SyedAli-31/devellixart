@@ -22,7 +22,7 @@ const HeroSection = () => {
         {/* Left Content */}
         <div className="container mx-auto px-6 md:px-12 lg:px-20 text-center md:text-left">
           <p className="text-gray-300 text-sm md:text-base">
-            // For Over 8 Years. For Millions of Users
+            \ For Over 8 Years. For Millions of Users
           </p>
           <h1 className="font-bold text-4xl md:text-6xl leading-tight mt-4">
             Empowering Your

@@ -2,6 +2,7 @@ import React from "react";
 import {  FaReact, FaJs } from "react-icons/fa";
 import "@fontsource/montserrat"; // For Montserrat
 import { BsFiletypePhp, BsFiletypeCss } from "react-icons/bs";
+import Image from "next/image";
 
 const Recent: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const Recent: React.FC = () => {
           <div className="relative">
             <div className="relative w-full h-auto aspect-square rounded-lg overflow-hidden">
               <div className="clip-custom w-full h-full">
-                <img
+                <Image
                   src="/service.png" // Replace with the correct image path
                   alt="Team Collaboration"
                   className="object-cover w-full h-full"
@@ -29,7 +30,7 @@ const Recent: React.FC = () => {
               style={{ fontWeight: 800,fontFamily: "Arial",
                 }}
             >
-              // EXPERIENCE. EXECUTION. EXCELLENCE.
+              \ EXPERIENCE. EXECUTION. EXCELLENCE.
             </p>
             <h2
               className="text-[34px] text-[#1F1D1D] font-extrabold leading-tight mb-6"
