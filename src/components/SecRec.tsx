@@ -19,14 +19,14 @@ Motion Graphics: Dynamic visuals to elevate your brand.`,
     },
     {
       title: "Website Development",
-      image: "/web.jpg", // Replace with actual image path
+      image: "/website.png", // Replace with actual image path
       hoverText: `Custom Creations: Stunning, unique websites.
 Seamless Experience: Perfect on every device.
 E-Commerce Magic: Powerful online stores.`,
     },
     {
       title: "Mobile Application Development",
-      image: "/mobile.png", // Replace with actual image path
+      image: "/software.jpeg", // Replace with actual image path
       hoverText: `Dynamic Apps: High-performance for iOS & Android.
 Engaging Design: Intuitive, user-focused.
 Universal Access: Consistent across all platforms.`,

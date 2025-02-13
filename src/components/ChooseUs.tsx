@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const ChooseUs: React.FC = () => {
   return (
-    <div className="relative mx-auto py-8 px-4 sm:px-6 lg:px-12">
+    <div className="relative mx-auto py-8  px-4 sm:px-6 lg:px-12">
       {/* Triangle Background: Visible on desktop only */}
-      <div className="absolute inset-0 w-[0] h-0 border-l-[98.7vw] border-b-[50vh] border-t-[25vh] border-t-blue-950 z-0 md:block hidden"></div>
+      <div className="absolute inset-0 w-[0] h-0 border-l-[98.7vw] border-b-[50vh] border-t-[25vh] border-white border-t-blue-600 z-0 md:block hidden"></div>
       
       {/* Content Section */}
       <div className="relative z-10 flex flex-col md:flex-row items-center">

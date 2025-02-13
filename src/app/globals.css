@@ -5,6 +5,17 @@
 /* styles/globals.css */
 body {
   font-family: 'Montserrat', sans-serif;
-}
 
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  .hoverEffect {
+    @apply transition-all ease-in-out duration-300 cursor-pointer;
+  }
+}
 
