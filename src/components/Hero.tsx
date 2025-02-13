@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="relative w-full h-screen">
       {/* Video Background */}
       <video
-        src="/videos/furisticVideo.mp4"
+        src="/videos/furistic.mp4"
         autoPlay
         loop
         muted

@@ -118,7 +118,8 @@ Targeted Ads: Maximize your ROI.`,
               </div>
             ))}
           </div>
-        </section>
+        </section> 
+        
       </div>
     </div>
   );
